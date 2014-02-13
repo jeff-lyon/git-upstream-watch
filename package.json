@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bjoerge/git-upstream-watch"
+    "url": "git://github.com/jeff-lyon/git-upstream-watch"
   },
   "author": "Bjørge Næss",
   "license": "MIT"
