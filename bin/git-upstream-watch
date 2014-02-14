@@ -20,6 +20,11 @@ program
 
 var checkers = [];
 
+//If no arguments assume working directory
+if (program.args.length === 0) {
+  program.args.push(process.cwd());
+}
+
 /**
  * Recursively find directories where the iterator function returns true
  * @param dir
